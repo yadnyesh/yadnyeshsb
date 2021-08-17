@@ -11,4 +11,9 @@ public class TestController {
         return "Hello!";
     }
 
+    @GetMapping("/v2")
+    public String sendhelloV2() {
+        return "Hello from v2!";
+    }
+
 }
